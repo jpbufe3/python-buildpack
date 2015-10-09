@@ -195,6 +195,9 @@ source $BIN_DIR/steps/cryptography
 # GDAL support.
 source $BIN_DIR/steps/gdal
 
+# NumPy and SciPy support.
+source $BIN_DIR/steps/numpyscipy
+
 # Install dependencies with Pip.
 source $BIN_DIR/steps/pip-install
 
